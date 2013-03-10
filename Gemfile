@@ -8,7 +8,7 @@ group :production do
 end
 
 group :developement, :test do
-	gem 'sqlite3', '1.3.4'
+	gem 'sqlite3'
 end
 
 group :assets do
